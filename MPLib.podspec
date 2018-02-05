@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "include/*.{h}", "lib/*.{a}"
   s.framework = 'AVFoundation', 'QuartzCore', 'ImageIO', 'UIKit', 'CoreGraphics', 'GLKit', 'OpenGLES'
-  s.vendored_frameworks = 'lib/*.a'
   s.license = 'MIT'
   s.library = 'c++'
   s.vendored_libraries = 'lib/*.a'
